@@ -1,0 +1,27 @@
+{
+  "name": "creativewave/ps-cwextendedordergrid",
+  "description": "Prestashop module for extending order data displayed in orders grid.",
+  "type": "prestashop-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Guillaume Lebas",
+      "email": "contact@creative-wave.fr"
+    }
+  ],
+  "extra": {
+    "installer-name": "cwextendedordergrid"
+  },
+  "dist": {
+      "type": "zip",
+      "url": "https://github.com/creativewave/ps-cwextendedordergrid/releases/download/v1.0.0/cwextendedordergrid.zip"
+  },
+  "require": {
+    "composer/installers": "^1",
+    "php": "^7"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^2",
+    "phpunit/phpunit": "^6"
+  }
+}
